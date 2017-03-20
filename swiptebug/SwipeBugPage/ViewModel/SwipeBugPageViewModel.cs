@@ -11,7 +11,6 @@ namespace swipebug
 		{
 			for (var i = 0; i < 30; i++) {
 				itemSource.Add (new SwipeBugListItem("Test " + i));
-				blah
 			}
 		}
 
