@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "swipebug", "swiptebug\swipe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "swipebug.iOS", "iOS\swipebug.iOS.csproj", "{9912BBA8-8FF6-4621-9355-6A977EAB6720}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swipebug.Droid", "Swipebug.Droid\Swipebug.Droid\Swipebug.Droid.csproj", "{75FBAB9D-F619-4EA8-99A6-DC5847EC4683}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,5 +41,17 @@ Global
 		{9912BBA8-8FF6-4621-9355-6A977EAB6720}.Release|iPhone.Build.0 = Release|iPhone
 		{9912BBA8-8FF6-4621-9355-6A977EAB6720}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
 		{9912BBA8-8FF6-4621-9355-6A977EAB6720}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{75FBAB9D-F619-4EA8-99A6-DC5847EC4683}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75FBAB9D-F619-4EA8-99A6-DC5847EC4683}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75FBAB9D-F619-4EA8-99A6-DC5847EC4683}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75FBAB9D-F619-4EA8-99A6-DC5847EC4683}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75FBAB9D-F619-4EA8-99A6-DC5847EC4683}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{75FBAB9D-F619-4EA8-99A6-DC5847EC4683}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{75FBAB9D-F619-4EA8-99A6-DC5847EC4683}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{75FBAB9D-F619-4EA8-99A6-DC5847EC4683}.Release|iPhone.Build.0 = Release|Any CPU
+		{75FBAB9D-F619-4EA8-99A6-DC5847EC4683}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{75FBAB9D-F619-4EA8-99A6-DC5847EC4683}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{75FBAB9D-F619-4EA8-99A6-DC5847EC4683}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{75FBAB9D-F619-4EA8-99A6-DC5847EC4683}.Debug|iPhone.Build.0 = Debug|Any CPU
 	EndGlobalSection
 EndGlobal
