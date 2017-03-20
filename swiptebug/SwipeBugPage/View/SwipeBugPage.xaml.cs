@@ -23,6 +23,8 @@ namespace swipebug
 		public void OnItemSelected(object sender, ItemTappedEventArgs e)
 		{
 			((ListView)sender).SelectedItem = null;
+
+			throw new Exception ("Ups");
 		}
 	}
 }
