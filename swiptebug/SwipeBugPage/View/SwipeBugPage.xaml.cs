@@ -20,11 +20,13 @@ namespace swipebug
 			DisplayAlert ("Clicked", "Button has been clicked", "OK");
 		}
 
-		public void OnItemSelected(object sender, ItemTappedEventArgs e)
+		public async void OnItemSelected(object sender, ItemTappedEventArgs e)
 		{
 			((ListView)sender).SelectedItem = null;
 
-			throw new Exception ("Ups");
+			var exc = new Exception ("Ups");
+			await DisplayAlert ("test", "blub", "blah");
+			throw exc;
 		}
 	}
 }
