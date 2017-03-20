@@ -93,6 +93,10 @@
     <Reference Include="Microsoft.Azure.Mobile.Crashes.iOS.Bindings">
       <HintPath>..\packages\Microsoft.Azure.Mobile.Crashes.0.7.0\lib\Xamarin.iOS10\Microsoft.Azure.Mobile.Crashes.iOS.Bindings.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.1\lib\netstandard1.3\Newtonsoft.Json.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\swiptebug\swipebug.csproj">
