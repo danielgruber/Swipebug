@@ -9,7 +9,7 @@ namespace swipebug
 
 		public SwipeBugPageViewModel ()
 		{
-			for (var i = 0; i < 25; i++) {
+			for (var i = 0; i < 30; i++) {
 				itemSource.Add (new SwipeBugListItem("Test " + i));
 			}
 		}
